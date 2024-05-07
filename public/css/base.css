@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: var(--default-background-color);
+    color: var(--default-font-color);
+}
+
+/* flexbox */
+
+.flex {
+    display: flex;
+}
+
+.my-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.my-row, .my-col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-row {
+    flex-direction: row;
+}
+
+.my-col {
+    flex-direction: column;
+}
+
+.my-cell {
+    display: flex;
+    flex: 0 0 auto;
+}

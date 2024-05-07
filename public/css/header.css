@@ -1,0 +1,35 @@
+header.my-container {
+    min-height: 50px;
+    max-height: 50px;
+    width: 100%;
+    background-color: var(--darker-background-color);
+}
+
+header .my-row {
+    align-self: center;
+}
+
+header .nav {
+    margin-left: 50px;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+
+header .nav a {
+    color: var(--default-font-color);
+    text-decoration: none;
+    font-size: .9em;
+    font-weight: bold;
+    margin-right: 50px;
+    transition: opacity .2s ease-in-out;
+}
+
+header .nav a:hover, header .nav a:focus {
+    opacity: .7;
+}
+
+header .nav a.active {
+    font-weight: bolder;
+    opacity: .7;
+}

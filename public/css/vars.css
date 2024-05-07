@@ -1,0 +1,15 @@
+:root {
+    --default-background-color: #212529;
+    --default-font-color: #f8f9fa;
+
+    --darker-background-color: #191C1F;
+
+    --item-background-color: #3C4044;
+
+    --correct-green-option1: #97CC04;
+    --correct-green-option2: #00842C;
+    --maybe-yellow-option1: #DBD053;
+    --maybe-yellow-option2: #F4E409;
+    --maybe-yellow-option3: #F3C969;
+    --maybe-yellow-option4: #E7BB41;
+}
