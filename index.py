@@ -13,7 +13,7 @@ CORS(app)
 # Routes
 from routes import *
 
-if __name__ == '__name__':
+if __name__ == '__main__':
     app.run(
         host=HOST,
         port=PORT,
